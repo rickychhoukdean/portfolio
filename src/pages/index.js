@@ -15,6 +15,20 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
+
+      <ul className="icons margin-top ">
+        {config.socialLinks.map(social => {
+          const { style, icon, name, url } = social;
+          return (
+            <li key={url}>
+              <a href={url} className={`icon ${style} ${icon}`}>
+                <span className="label">{name}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+
       <Scroll type="id" element="one">
         <a href="#one" className="more">
           Learn More
@@ -26,9 +40,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>About Me</h2>
-          <p>
-       
-          </p>
+          <p></p>
         </header>
         <ul className="icons major">
           <li>
