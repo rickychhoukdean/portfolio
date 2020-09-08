@@ -1,13 +1,12 @@
 module.exports = {
   siteTitle: 'Ricky Chhoukdean Portfolio', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Ricky Chhoukdean Portfolio',
+  manifestShortName: 'Portfolio',
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/img/logo.svg',
   heading: 'Ricky Chhoukdean',
   subHeading: 'Full Stack Developer',
   socialLinks: [

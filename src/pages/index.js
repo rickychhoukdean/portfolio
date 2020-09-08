@@ -36,31 +36,28 @@ const IndexPage = () => (
         <header className="major">
           <h2>About Me</h2>
           <p>
-            Hi I'm Ricky, a full stack developer based out of Toronto. I love
-            solving problems with code.
+            Hi there! I'm Ricky Chhoukdean and I have a backgroud in progammatic
+            digital marketing and mathematics. I love using code to solve
+            meaningful problems, automate processes and visualize data.
           </p>
           <p>
-            I have a backgroud in progammatic digital marketing and mathematics
-            and these two have taught me a lot of skills.
-          </p>
-          <p>
-            Aside from coding I'm a huge gamer (anything Riot related) and into
-            personal fitness.
+            When I'm not coding you can find me playing video games and training
+            to one day be able to finally dunk a basketball.
           </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon solid fa-code major style1">
+            <span className="icon solid fa-code major style1 not-clickable">
               <span className="label">Code icon</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-basketball-ball major style2">
+            <span className="icon solid fa-basketball-ball major style2 not-clickable">
               <span className="label">Basketball icon</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-gamepad major style3">
+            <span className="icon solid fa-gamepad major style3 not-clickable">
               <span className="label">Gamepad</span>
             </span>
           </li>
@@ -75,7 +72,7 @@ const IndexPage = () => (
 
       <Project />
     </section>
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Contact me</h2>
@@ -97,7 +94,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
