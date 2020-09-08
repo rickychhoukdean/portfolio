@@ -103,10 +103,15 @@ let mapProjects = allProjects.map(x => {
       <div className="content">
         <h2>{x.title}</h2>
         <p>{x.description}</p>
-        <button className="margin-right" onClick={() => openInNewTab(x.github)}>
-          Github
-        </button>
-        <button onClick={() => openInNewTab(x.deploy)}>Live</button>
+        <div className="button-container">
+          <button
+            className="margin-right"
+            onClick={() => openInNewTab(x.github)}
+          >
+            Github
+          </button>
+          <button onClick={() => openInNewTab(x.deploy)}>Live</button>
+        </div>
       </div>
     </section>
   );

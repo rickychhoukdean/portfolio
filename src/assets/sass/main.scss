@@ -2063,6 +2063,17 @@ body.is-mobile {
 }
 
 .margin-right {
-	margin-right: 1rem;
+	margin-right: 1em;
 }
 
+.header-title {
+	text-align: center;
+	background-color: #273038;
+	margin: 0 !important;
+	padding-top: 3.5em;
+	padding-bottom: 1.5em;
+}
+
+.button-container {
+	margin-bottom: 1em;
+}

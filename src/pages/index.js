@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
-import Project from "../components/Projects"
+import Project from '../components/Projects';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -51,7 +51,7 @@ const IndexPage = () => (
             personal fitness.
           </p>
         </header>
-        <ul className="icons major">
+        {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
@@ -67,14 +67,18 @@ const IndexPage = () => (
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
-      <Project/>
+          <header className="major header-title">
+            <h2>Projects</h2>
+          </header>
+
+      <Project />
     </section>
-       <section id="cta" className="wrapper style4">
+    <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Arcue ut vel commodo</h2>
