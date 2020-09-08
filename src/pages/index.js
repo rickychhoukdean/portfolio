@@ -1,10 +1,7 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
 import Project from '../components/Projects';
-
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -27,14 +24,14 @@ const IndexPage = () => (
         })}
       </ul>
 
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
+      <Scroll type="id" element="about-section">
+        <a href="#about-section" className="more">
           Learn More
         </a>
       </Scroll>
     </section>
 
-    <section id="one" className="wrapper style1 special">
+    <section id="about-section" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
           <h2>About Me</h2>
@@ -51,37 +48,37 @@ const IndexPage = () => (
             personal fitness.
           </p>
         </header>
-        {/* <ul className="icons major">
+        <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+            <span className="icon solid fa-code major style1">
+              <span className="label">Code icon</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+            <span className="icon solid fa-basketball-ball major style2">
+              <span className="label">Basketball icon</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="icon solid fa-gamepad major style3">
+              <span className="label">Gamepad</span>
             </span>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
-          <header className="major header-title">
-            <h2>Projects</h2>
-          </header>
+    <section id="project-section" className="wrapper alt style2">
+      <header className="major header-title">
+        <h2>Projects</h2>
+      </header>
 
       <Project />
     </section>
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Contact me</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Scroll from './Scroll';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -22,13 +23,27 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#one" className="more">
-                  About
-                </a>
+                <Scroll type="id" element="about-section">
+                  <a href="#about-section" className="more">
+                    About
+                  </a>
+                </Scroll>
               </li>
               <li>
-                <a href="#two" className="more">
-                  Projects
+                <Scroll type="id" element="project-section">
+                  <a href="#project-section" className="more">
+                    Projects
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="ntext nav-link"
+                  href="https://resume.creddle.io/resume/7hk5dhz1slo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
                 </a>
               </li>
             </ul>
