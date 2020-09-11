@@ -3,6 +3,8 @@ module.exports = {
   manifestName: 'Ricky Chhoukdean Portfolio',
   manifestShortName: '/',
   manifestStartUrl: '/',
+
+  
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
