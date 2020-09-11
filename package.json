@@ -1,11 +1,7 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "Ricky Portfolio Site",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
-  },
+  "description": "Portfolio site using Gatsby.js V2 starter template based on Spectral by HTML5 UP",
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
@@ -38,5 +34,5 @@
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-spectral/issues"
   },
-  "homepage": "https://rickychhoukdean.github.io/",
+  "homepage": "https://rickychhoukdean.github.io/"
 }
