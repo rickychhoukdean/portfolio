@@ -1,11 +1,11 @@
 {
-  "name": "Ricky_Portfolio",
+  "name": "postfolio",
   "version": "0.0.1",
   "description": "Portfolio site using Gatsby.js V2 starter template based on Spectral by HTML5 UP",
   "dependencies": {
-    "gatsby": "^2.20.2",
-    "gatsby-plugin-manifest": "^2.3.1",
-    "gatsby-plugin-offline": "^3.1.0",
+    "gatsby": "^2.24.57",
+    "gatsby-plugin-manifest": "^2.4.28",
+    "gatsby-plugin-offline": "^3.2.27",
     "gatsby-plugin-react-helmet": "^3.2.0",
     "gatsby-plugin-sass": "^2.2.0",
     "node-sass": "^4.13.1",
