@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Ricky Chhoukdean Portfolio', // <title>
   manifestName: 'Ricky Chhoukdean Portfolio',
-  manifestShortName: 'Portfolio',
+  manifestShortName: '/',
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
