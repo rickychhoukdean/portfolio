@@ -41,7 +41,7 @@ const IndexPage = () => (
             meaningful problems, automate processes and visualize data.
           </p>
           <p>
-            When I'm not coding you can find me playing video games and training
+            When I'm not coding you can find me playing video games (anything Riot related) and training
             to one day be able to finally dunk a basketball.
           </p>
         </header>
