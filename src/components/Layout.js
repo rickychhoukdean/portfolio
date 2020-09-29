@@ -53,7 +53,7 @@ class Layout extends Component {
                 {
                   name: 'keywords',
                   content:
-                    'site, web, portfolio, chhoukdean, web development, react, frontend, backend, fullstack',
+                    'site, web, portfolio, chhoukdean, web development, react, frontend, backend, fullstack, engineer',
                 },
               ]}
             >
